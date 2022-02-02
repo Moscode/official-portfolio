@@ -1,0 +1,41 @@
+.about-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-page-skills{
+    margin-left: 4rem;
+    margin-top: 6rem;
+    width: 40%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    animation: circle 5s linear infinite;
+}
+
+@keyframes circle {
+ 0%{
+     transform: rotate(0deg)
+                translate(-500px)
+                rotate(0%);
+ }
+
+ 100%{
+     transform: rotate(360deg)
+                translate(-500px)
+                rotate(360deg)  
+}
+
+}
+
+.about-page-image img{
+    margin-top: 12rem;
+    margin-right: -8em;
+    height: 40%;
+    border-radius: 100% 31% 100% 32% / 55% 48% 32% 26%;
+}
